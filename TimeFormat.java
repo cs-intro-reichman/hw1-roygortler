@@ -2,7 +2,7 @@
 public class TimeFormat {
 	public static void main(String[] args) {
 	
-		public static void main(String[] args) {
+		
 			// In Java, the command-line arguments args[0], args[1], ... are represented
 			// each by a string. In this program, the single "hh:mm" input is represented
 			// by the single command-line string argument args[0]. 
