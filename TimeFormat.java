@@ -32,7 +32,10 @@ public class TimeFormat {
 					if(hours>=10&&hours<12)
 			         System.out.println(hours+":"+minutes+" AM");
 		else
-			System.out.println(hours+":"+minutes+"0 PM");
-		}
+			{if(minutes!=0&&minutes<10)
+				   System.out.println(hours+":0"+minutes+" PM");
+		    else
+				   System.out.println(hours+":"+minutes+" PM");
+		}}
 
 	}
