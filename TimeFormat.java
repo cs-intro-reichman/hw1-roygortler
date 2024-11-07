@@ -15,10 +15,10 @@ public class TimeFormat {
         // Replace this comment with the rest of your code
 		
 		if(hours>=12)
-			System.out.println("time is"+ (hours-12)+":"+minutes+"pm");
+			System.out.println( (hours-12)+":"+minutes+"pm");
 		else
 			if(hours<12)
-			System.out.println("time is 0"+hours+":"+minutes+" am ");
+			System.out.println("0"+hours+":"+minutes+" am ");
 		
 
 	}
