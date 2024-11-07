@@ -16,20 +16,20 @@ public class TimeFormat {
 					
 		if(hours>12)
 			{if(minutes==0)
-				System.out.println( (hours-12)+":"+minutes+"0 pm");
+				System.out.println( (hours-12)+":"+minutes+"0 PM");
 			else 
-				System.out.println( (hours-12)+":"+minutes+" pm");
+				System.out.println( (hours-12)+":"+minutes+" PM");
 	   }else
 			if(hours<10){
 				if(minutes==0)
-					System.out.println( "0"+hours+":"+minutes+"0 am");
+					System.out.println( "0"+hours+":"+minutes+"0 AM");
 				else
-							   System.out.println("0"+hours+":"+minutes);
+							   System.out.println("0"+hours+":"+minutes+" AM");
 	}	else
 					if(hours>=10&&hours<12)
-			         System.out.println(hours+":"+minutes+" am");
+			         System.out.println(hours+":"+minutes+" AM");
 		else
-			System.out.println(hours+":"+minutes+"0 pm");
+			System.out.println(hours+":"+minutes+"0 PM");
 		}
 
 	}
