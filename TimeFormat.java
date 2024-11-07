@@ -22,9 +22,12 @@ public class TimeFormat {
 	   }else
 			if(hours<10){
 				if(minutes==0)
-					System.out.println( "0"+hours+":"+minutes+"0 AM");
+					System.out.println( hours+":"+minutes+"0 AM");
 				else
-							   System.out.println("0"+hours+":"+minutes+" AM");
+					if(minutes!=0&&minutes<10)
+							   System.out.println(hours+":0"+minutes+" AM");
+				else
+					System.out.println(hours+":"+minutes+" AM");
 	}	else
 					if(hours>=10&&hours<12)
 			         System.out.println(hours+":"+minutes+" AM");
