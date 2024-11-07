@@ -7,7 +7,7 @@ public class FVCalc {
 		double yield= amount* (double)Math.pow(1+(percentage/100),years);
 		int yield1= (int)yield;
 		System.out.println( yield1);
-		System.out.println(amount+amount*(percentage/100));
-	
+		System.out.println("After "+years+" years, a $"+amount+" saved at "+percentage+" will yield $"+ amount+amount*(percentage/100));
+		
 }
 }
